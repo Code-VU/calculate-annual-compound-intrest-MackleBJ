@@ -26,7 +26,7 @@ def calculateCompoundInterest():
     client_one_principal, client_one_time, client_one_rate = getClientInfo()
     client_one_amount = calculateAmount(client_one_principal, client_one_rate, client_one_time)
     client_one_compound_interest = calculateCompoundInterest(client_one_amount, client_one_principal)
-    print("Compound Interest: {:.2f}".format(client_one_compound_interest))
+    print("Compound Interest: {:.1f}".format(client_one_compound_interest))
 
     print("---")
 
@@ -40,7 +40,7 @@ def calculateCompoundInterest():
     client_three_principal, client_three_time, client_three_rate = getClientInfo()
     client_three_amount = calculateAmount(client_three_principal, client_three_rate, client_three_time)
     client_three_compound_interest = calculateCompoundInterest(client_three_amount, client_three_principal)
-    print("Compound Interest: {:.2f}".format(client_three_compound_interest))
+    print("Compound Interest: {:.1f}".format(client_three_compound_interest))
 
  #print("Compound Interest: "+str(intrest))
 
